@@ -159,7 +159,7 @@ cryptoadvance-spectrum==0.6.4 \
     --hash=sha256:226f89dfe96dac2fcd82f462706e118f017582df5565ff1924f27e4392bc6a0e \
     --hash=sha256:fa6c877b3a5ba683ccde991f020fce2f3b06e0b8f5219a6fdc592658cacb1d3d
     # via -r requirements.in
-cryptography==39.0.1 \
+cryptography==42.0.6 \
     --hash=sha256:0f8da300b5c8af9f98111ffd512910bc792b4c77392a9523624680f7956a99d4 \
     --hash=sha256:35f7c7d015d474f4011e859e93e789c87d21f6f4880ebdc29896a60403328f1f \
     --hash=sha256:4789d1e3e257965e960232345002262ede4d094d1a19f4d3b52e48d4d8f3b885 \
