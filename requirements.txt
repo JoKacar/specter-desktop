@@ -27,7 +27,7 @@ bitbox02==6.1.1 \
 cbor==1.0.0 \
     --hash=sha256:13225a262ddf5615cbd9fd55a76a0d53069d18b07d2e9f19c39e6acb8609bbb6
     # via hwi
-cbor2==5.4.6 \
+cbor2==5.6.0 \
     --hash=sha256:0b956f19e93ba3180c336282cd1b6665631f2d3a196a9c19b29a833bf979e7a4 \
     --hash=sha256:0bd12c54a48949d11f5ffc2fa27f5df1b4754111f5207453e5fae3512ebb3cab \
     --hash=sha256:0d2b926b024d3a1549b819bc82fdc387062bbd977b0299dd5fa5e0ea3267b98b \
@@ -159,7 +159,7 @@ cryptoadvance-spectrum==0.6.4 \
     --hash=sha256:226f89dfe96dac2fcd82f462706e118f017582df5565ff1924f27e4392bc6a0e \
     --hash=sha256:fa6c877b3a5ba683ccde991f020fce2f3b06e0b8f5219a6fdc592658cacb1d3d
     # via -r requirements.in
-cryptography==39.0.1 \
+cryptography==42.0.6 \
     --hash=sha256:0f8da300b5c8af9f98111ffd512910bc792b4c77392a9523624680f7956a99d4 \
     --hash=sha256:35f7c7d015d474f4011e859e93e789c87d21f6f4880ebdc29896a60403328f1f \
     --hash=sha256:4789d1e3e257965e960232345002262ede4d094d1a19f4d3b52e48d4d8f3b885 \
@@ -310,7 +310,7 @@ greenlet==2.0.2 \
     --hash=sha256:f82d4d717d8ef19188687aa32b8363e96062911e63ba22a0cff7802a8e58e5f1 \
     --hash=sha256:fc3a569657468b6f3fb60587e48356fe512c1754ca05a564f11366ac9e306526
     # via -r requirements.in
-gunicorn==20.1.0 \
+gunicorn==22.0.0 \
     --hash=sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e \
     --hash=sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8
     # via -r requirements.in
@@ -377,7 +377,7 @@ itsdangerous==2.1.2 \
     # via
     #   flask
     #   flask-wtf
-jinja2==3.1.2 \
+jinja2==3.1.4 \
     --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852 \
     --hash=sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
     # via
@@ -816,7 +816,7 @@ urllib3==1.26.14 \
     --hash=sha256:076907bf8fd355cde77728471316625a4d2f7e713c125f51953bb5b3eecf4f72 \
     --hash=sha256:75edcdc2f7d85b137124a6c3c9fc3933cdeaa12ecb9a6a959f22797a0feca7e1
     # via requests
-werkzeug==2.2.3 \
+werkzeug==3.0.3 \
     --hash=sha256:2e1ccc9417d4da358b9de6f174e3ac094391ea1d4fbef2d667865d819dfd0afe \
     --hash=sha256:56433961bc1f12533306c624f3be5e744389ac61d722175d543e1751285da612
     # via
@@ -835,3 +835,4 @@ wtforms==3.0.1 \
 # pinned when the requirements file includes hashes and the requirement is not
 # satisfied by a package already installed. Consider using the --allow-unsafe flag.
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
