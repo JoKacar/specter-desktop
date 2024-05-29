@@ -20,7 +20,7 @@
   "author": "Specter",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^29.4.0",
+    "electron": "^29.4.1",
     "electron-builder": "^24.13.2"
   },
   "build": {
