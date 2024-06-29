@@ -13,7 +13,7 @@
     "wait-on": "^7.2.0"
   },
   "devDependencies": {
-    "cypress": "^13.0.0",
+    "cypress": "^13.10.0",
     "cypress-wait-until": "^1.7.1",
     "gulp": "^5.0.0"
   },
